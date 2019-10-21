@@ -1,2 +1,0 @@
-# Compat
-COMPONENT_ADD_INCLUDEDIRS := mongoose
