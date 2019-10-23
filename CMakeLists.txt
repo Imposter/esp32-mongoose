@@ -1,4 +1,4 @@
-set (src "mongoose/mongoose.c")
+set (src "mongoose/mongoose.c" "mongoose_util.c")
 set(include_dirs "mongoose")
 set(requires "openssl")
 
