@@ -14,4 +14,5 @@ target_compile_definitions(${COMPONENT_TARGET} PUBLIC
                            -DMG_ENABLE_MQTT=0
                            -DMG_ENABLE_HTTP=1
                            -DMG_ENABLE_HTTP_WEBSOCKET=1
-                           -DMG_ENABLE_HTTP_STREAMING_MULTIPART=1)
+                           -DMG_ENABLE_HTTP_STREAMING_MULTIPART=1
+                           -DMG_ENABLE_HTTP_SSI=0)
