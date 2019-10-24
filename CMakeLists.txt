@@ -9,6 +9,7 @@ idf_component_register(SRCS "${src}"
 target_compile_definitions(${COMPONENT_TARGET} PUBLIC 
                            -DCS_PLATFORM=15 # ESP32 platform
                            -DMG_SSL_IF=2 # Use mbedtls directly
+                           -DMG_ENABLE_FILESYSTEM=1
                            -DMG_ENABLE_SSL=1
                            -DMG_ENABLE_MQTT=0
                            -DMG_ENABLE_HTTP=1
